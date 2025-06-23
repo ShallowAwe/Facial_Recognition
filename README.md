@@ -193,8 +193,7 @@ assets/
 
 | Screen | Image | Description |
 |--------|-------|-------------|
-| **Home Screen** | ![Home Screen](![Home Ui](https://github.com/user-attachments/assets/77627155-5fb8-4f4e-8769-69f52f7e5151)
-) | Initial app interface where users can select two images for comparison. Clean UI with placeholder areas for image selection. |
+| **Home Screen** | ![Home Screen](![Home Ui](https://github.com/user-attachments/assets/77627155-5fb8-4f4e-8769-69f52f7e5151) | Initial app interface where users can select two images for comparison. Clean UI with placeholder areas for image selection. |
 | **Face Selection & Processing** | ![Face Selection](https://github.com/user-attachments/assets/1f7f5198-e7e1-4446-9cf3-bfa280c025d7) | Shows selected images with detected and cropped face regions. The app automatically detects faces using ML Kit and prepares them for comparison. |
 | **High Similarity Result** | ![Results - High Match](https://github.com/user-attachments/assets/0456fc73-f644-4121-b1ec-652c7c675af9) | Demonstrates a **high similarity score** between two face images. Shows percentage match and "Very Similar" verdict, indicating likely same person. |
 
