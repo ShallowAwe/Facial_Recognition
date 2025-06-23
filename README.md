@@ -189,11 +189,27 @@ assets/
 
 ## 📱 Screenshots
 
-| Home Screen | Face Selection | Results |
-|-------------|---------------|---------|
-| ![Home](screenshots/home.png) | ![Selection](screenshots/selection.png) | ![Results](screenshots/results.png) |
+### App Flow & Results Demonstration
 
-*Add actual screenshots to a `screenshots/` folder in your repository*
+| Screen | Image | Description |
+|--------|-------|-------------|
+| **Home Screen** | ![Home Screen](https://github.com/user-attachments/assets/80a8e59d-50dd-49b2-86f2-03844966d2b9) | Initial app interface where users can select two images for comparison. Clean UI with placeholder areas for image selection. |
+| **Face Selection & Processing** | ![Face Selection](https://github.com/user-attachments/assets/1f7f5198-e7e1-4446-9cf3-bfa280c025d7) | Shows selected images with detected and cropped face regions. The app automatically detects faces using ML Kit and prepares them for comparison. |
+| **High Similarity Result** | ![Results - High Match](https://github.com/user-attachments/assets/0456fc73-f644-4121-b1ec-652c7c675af9) | Demonstrates a **high similarity score** between two face images. Shows percentage match and "Very Similar" verdict, indicating likely same person. |
+
+### Result Analysis
+
+**Screenshot Analysis:**
+- **Good Lighting**: All images show clear, well-lit faces which improve detection accuracy
+- **Frontal Poses**: Faces are positioned frontally, optimal for the FaceNet model
+- **High Similarity Score**: The result screen shows a high percentage match, indicating the faces are likely from the same person
+- **Clean Detection**: Face cropping appears accurate with proper boundary detection
+
+**Why High Similarity:**
+- Similar facial structure and features
+- Consistent lighting conditions
+- Clear face visibility without obstructions
+- Proper image quality for embedding generation
 
 ---
 
